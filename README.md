@@ -21,6 +21,16 @@ Develop the user interface to interact with the OML GPT, submit queries UI, and 
 3. ChatGPT Integration\
 Using the ChatGPT model for natural language understanding and response generation, which makes sending the SPARQL query back easier.
 
+4. API Development\
+Create and integrate backend application programming interfaces (APIs) that convert natural language inquiries into SPARQL queries and then translate the results back into comprehensible natural language answers.
+
+5. Documentation and Training\
+Create comprehensive documentation and provide training materials for future developers and users.
+Develop thorough documentation and prepare educational content for the orientation and use of subsequent developers and users.
+
+6.Deployment and Monitoring\
+Launch the application in a live production setting and establish suitable systems for monitoring and logging to ensure smooth operation.
+
 ### Story
 
 A [story](https://www.atlassian.com/agile/project-management/epics-stories-themes) is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.
@@ -32,6 +42,15 @@ As a user, I want to use the natural language to ask questions since I can phras
 
 3. Generate SPARQL Query\
 As a backend service, I hope to get the SPARQL Query which is converted from the natural language, so I can get the data from the SPARQL directly. 
+
+4. API Development\
+As a backend developer, I want to design and implement APIs that can translate natural language queries into SPARQL queries, so that the system can understand and process user requests efficiently.
+
+5. Documentation and Training\
+As a technical writer, I want to create detailed documentation and training materials for the system, so that future developers and users can easily understand and use the application.
+
+6. Deployment and Monitoring\
+As a DevOps engineer, I want to deploy the application in a production environment with effective monitoring and logging, so that we can ensure its continuous operation and quickly address any issues that arise.
 
 ### Bug
 
